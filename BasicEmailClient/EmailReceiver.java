@@ -13,8 +13,8 @@ public class EmailReceiver {
         SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() {
-                final String username = "prakritchauhan@gmail.com";  // Replace with your email
-                final String password = "nksd jzkx ipsb tcqp";  // Replace with your app password
+                final String username = "my email";  // Replace with your email
+                final String password = "my password";  // Replace with your app password
 
                 Properties properties = new Properties();
                 properties.put("mail.store.protocol", "imap");
