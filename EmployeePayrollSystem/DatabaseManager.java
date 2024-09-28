@@ -12,7 +12,7 @@ public class DatabaseManager {
             // Use the database URL and credentials you set up earlier
             String url = "jdbc:mysql://localhost:3306/payroll_db";  // MySQL URL
             String username = "root";  // MySQL username
-            String password = "Dolphin1005";  // MySQL root password
+            String password = "myPassword";  // MySQL root password
             conn = DriverManager.getConnection(url, username, password);
             System.out.println("Connected to the database!");
         } catch (SQLException e) {
