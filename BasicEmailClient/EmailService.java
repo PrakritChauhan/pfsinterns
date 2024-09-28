@@ -6,8 +6,8 @@ import java.util.Properties;
 public class EmailService {
 
     public static void sendEmail(String recipient, String subject, String messageText) {
-        final String username = "prakritchauhan@gmail.com";  // Replace with your email
-        final String password = "nksd jzkx ipsb tcqp";     // Replace with your email password
+        final String username = "myemail";  
+        final String password = "my password"; 
 
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true");
