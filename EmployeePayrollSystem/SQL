@@ -1,0 +1,17 @@
+CREATE DATABASE payroll_db;
+USE payroll_db;
+
+CREATE TABLE Employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    position VARCHAR(100),
+    base_salary DOUBLE,
+    hourly_rate DOUBLE
+);
+
+CREATE TABLE AuditLog (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    action VARCHAR(255),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
